@@ -1,0 +1,140 @@
+<!DOCTYPE HTML>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+			<title>Sentiment Analysis Project</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<h1><strong>Project Highlights: </strong>Analyzed Amazon reviews using Pandas, applied VADER and ROBERTA models for sentiment analysis,<br />
+						visualized sentiment against ratings, and leveraged Hugging Face's Sentiment Pipeline for advanced NLP insights.<br />
+					 <a href="https://github.com/dgnzehra/Python-Sentiment-Analysis-Project/">@view on github</a></h1>
+				</div>
+			</header>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- One -->
+					<section id="one">
+						<article class="col-6 col-12-xsmall work-item">
+							<img src="images\sentiment-analysis.png" width="800" height="450" />
+							<h1>Sentiment Analysis</h1>
+						</article>
+						
+					</section>
+
+				<!-- Two -->
+					<section id="two">
+						<header class="major">
+							<h2>Analyzing Amazon Reviews for Sentiment Insights Using VADER and ROBERTA Models </h2>
+						</header>
+						<p>The goal of this project is to perform sentiment analysis on Amazon product reviews, aiming to understand the sentiments expressed by customers and gain insights into the overall satisfaction or dissatisfaction with the products.</p>
+						
+						<div>
+							
+							<h2>Tools and Libraries:</h2>
+							<ul>
+								<li>Python</li>
+								<li>Pandas for data manipulation</li>
+								<li>NumPy for numerical operations</li>
+								<li>Seaborn and Matplotlib for data visualization</li>
+								<li>NLTK (Natural Language Toolkit) for text processing</li>
+								<li>VADER (Valence Aware Dictionary and Sentiment Reasoner) for sentiment scoring</li>
+								<li>Transformers library for utilizing a pre-trained ROBERTA model</li>
+							</ul>
+							
+
+							<h2>Data Loading and Exploration:</h2>
+							<ul>
+								<li>A bar chart is created to visualize the distribution of review scores.</li>
+								<li>The compound score is visualized across different review scores.</li>
+							</ul>
+							<img src="images\sentiment-analysis-wp.jpeg" width="800"/>	
+
+							<h2>Sentiment Analysis with VADER:</h2>
+							<ul>
+								<li>VADER sentiment analyzer is applied to the reviews, providing polarity scores for each review.</li>
+								<li>NLTK is used for tokenization and part-of-speech tagging on an example review.</li>
+							</ul>
+							<img src="images\sentiment-analysis-wp2.jpeg" width="800" />
+							<img src="images\sentiment-analysis-wp3.jpeg" width="800" />
+
+							<h2>ROBERTA Pretrained Model</h2>
+							<ul>
+								<li>The project utilizes the ROBERTA pre-trained model from the Transformers library for more advanced sentiment analysis.</li>
+								<li>The ROBERTA model is applied to an example review, producing sentiment scores for negative, neutral, and positive sentiments.</li>
+							</ul>
+							<img src="images\sentiment-analysis-wp4.jpeg" width="800" />
+
+							
+							<h2>Combined Sentiment Analysis:</h2>
+							<ul>
+								<li>Sentiment analysis is performed on the entire dataset using both VADER and ROBERTA.</li>
+								<li>The results are combined into a DataFrame for further analysis.</li>
+							</ul>
+
+							<h2>Data Visualization:</h2>
+							<ul>
+								<li>Pair plots are created to visualize the relationship between sentiment scores and review scores.</li>
+								<li>Examples of reviews with extreme sentiment scores are extracted and displayed.</li>
+							</ul>
+							<img src="images\sentiment-analysis-wp5.jpeg" width="800" />
+
+								<h2>Sentiment Analysis with Hugging Face's Sentiment Pipeline:</h2>
+								<ul>
+									<li> The project employs the Hugging Face Sentiment Pipeline using a default model for quick sentiment analysis.</li>
+								</ul>
+							
+							<p> This project provides a comprehensive analysis of sentiment in Amazon reviews, utilizing both rule-based (VADER) and machine learning-based (ROBERTA) approaches. The visualizations and extracted examples offer valuable insights into the sentiments expressed by customers in the dataset.</p>
+						</div>
+						
+					</section>
+
+				</section>
+
+				<!-- Three -->
+					<section id="three">
+						<div class="inner">
+							<li style="list-style-type: none;">
+								<span style="color: gray;">2023 - Zehra Doğan</span>
+								<span class="icon solid fa-star" style="color: purple;"></span>
+							</li>
+							
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<ul class="icons">
+						<li><a href="https://www.linkedin.com/in/dogan-zehra/" class="icon brands fa-linkedin" style="color: floralwhite;"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://github.com/dgnzehra" class="icon brands fa-github" style="color: floralwhite;"><span class="label">Github</span></a></li>
+						<li><a href="https://medium.com/@zehradogan" class="icon brands fa-medium" style="color: floralwhite;"><span class="label">Medium</span></a></li>
+						<li><a href="mailto:doganzehra137@gmail.com" class="icon solid fa-envelope" style="color: floralwhite;"><span class="label">Email</span></a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+	
+		</body>
+	</html>
